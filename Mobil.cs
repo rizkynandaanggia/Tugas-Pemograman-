@@ -1,48 +1,19 @@
 ﻿using System;
 
-namespace TugasPertemuan4
+
+namespace TugasPertemuan3
 {
     public class Mobil
     {
-        // private fields
-        private string warna_Mobil;
-        private int jumlahPintu_Mobil;
-        private string merek_Mobil;
-        private string model_Mobil;
-        private int tahunKeluaran_Mobil;
 
-        // public properties
-        public string Warna_Mobil
-        {
-            get { return warna_Mobil; }
-            set { warna_Mobil = value; }
-        }
+        // property
+        public string Warna_Mobil { get; set; }
+        public int JumlahPintu_Mobil { get; set; }
+        public string Merek_Mobil { get; set; }
+        public string Model_Mobil { get; set; }
+        public int TahunKeluaran_Mobil { get; set; }
 
-        public int JumlahPintu_Mobil
-        {
-            get { return jumlahPintu_Mobil; }
-            set { jumlahPintu_Mobil = value; }
-        }
-
-        public string Merek_Mobil
-        {
-            get { return merek_Mobil; }
-            set { merek_Mobil = value; }
-        }
-
-        public string Model_Mobil
-        {
-            get { return model_Mobil; }
-            set { model_Mobil = value; }
-        }
-
-        public int TahunKeluaran_Mobil
-        {
-            get { return tahunKeluaran_Mobil; }
-            set { tahunKeluaran_Mobil = value; }
-        }
-
-        // public methods
+        // method
         public void InfoMobil()
         {
             Console.WriteLine("Warna          : {0}", Warna_Mobil);
@@ -50,6 +21,7 @@ namespace TugasPertemuan4
             Console.WriteLine("Merek          : {0}", Merek_Mobil);
             Console.WriteLine("Model          : {0}", Model_Mobil);
             Console.WriteLine("Tahun Keluaran : {0}", TahunKeluaran_Mobil);
+
         }
 
         public void Gas(int Kecepatan)
@@ -68,4 +40,3 @@ namespace TugasPertemuan4
         }
     }
 }
-

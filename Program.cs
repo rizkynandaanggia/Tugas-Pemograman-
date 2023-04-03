@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace TugasPertemuan4
+namespace TugasPertemuan3
 {
     internal class Program
     {
